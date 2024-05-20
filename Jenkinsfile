@@ -6,7 +6,8 @@ pipeline {
    
      stage('Install Dependencies') { 
         steps { 
-           bat 'npm install' 
+            git 'https://github.com/devopstraining042024/hello-world1.git'
+
         }
      }
      
