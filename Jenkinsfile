@@ -4,7 +4,7 @@ pipeline {
 
    stages {
    
-     stage('Install Dependencies') { 
+     stage('SCM checkout') { 
         steps { 
             git 'https://github.com/devopstraining042024/hello-world1.git'
 
